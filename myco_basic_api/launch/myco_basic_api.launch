@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="myco_basic_api" pkg="myco_basic_api" type="myco_basic_api_node" output="screen">
+    <param name="octomap_resolution" value="0.1"/>
+  </node>
+  
+  <node name="myco_gui" pkg="myco_basic_api" type="myco_gui.py" respawn="true" output="screen" />
+
+</launch>

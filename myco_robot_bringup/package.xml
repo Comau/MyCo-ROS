@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>myco_robot_bringup</name>
+  <version>0.0.0</version>
+  <description>The myco_robot_bringup package</description>
+
+  <maintainer email="myco@gmail.com">myco</maintainer>
+
+  <license>BSD</license>
+
+  <author email="myco@gmail.com">myco</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>controller_manager</run_depend>
+  <run_depend>myco_ros_control</run_depend>
+  <run_depend>myco_ros_control</run_depend>
+  <run_depend>joint_trajectory_controller</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+</package>

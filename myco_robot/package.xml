@@ -1,0 +1,41 @@
+<package format="2">
+
+  <name>myco_robot</name>
+  <version>0.0.0</version>
+  <description>
+     metapackage for myco robot
+  </description>
+  <author email="myco@gmail.com">myco</author>
+  <maintainer email="myco@gmail.com">myco</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/Robots/myco</url>
+  <url type="bugtracker">https://github.com/Comau/MyCo-ROS/issues</url>
+  <url type="repository">https://github.com/Comau/MyCo-ROS</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>myco3_moveit_config</exec_depend>
+  <exec_depend>myco5_moveit_config</exec_depend>
+  <exec_depend>myco10_moveit_config</exec_depend>
+  <exec_depend>myco_basic_api</exec_depend>
+  <exec_depend>myco_description</exec_depend>
+  <exec_depend>myco_ethercat_driver</exec_depend>
+  <exec_depend>myco_ethercat_driver</exec_depend>
+  <exec_depend>myco_gazebo</exec_depend>
+  <exec_depend>myco3_ikfast_plugin</exec_depend>
+  <exec_depend>myco5_ikfast_plugin</exec_depend>
+  <exec_depend>myco10_ikfast_plugin</exec_depend>
+  <exec_depend>myco_kinematic_solver</exec_depend>
+  <exec_depend>myco_robot_bringup</exec_depend>
+  <exec_depend>myco_robot_msgs</exec_depend>
+  <exec_depend>myco_ros_control</exec_depend>
+  <exec_depend>myco_ros_control</exec_depend>
+  <exec_depend>myco_ros_controllers</exec_depend>
+  
+  <export>
+    <metapackage/>
+  </export>
+
+</package>

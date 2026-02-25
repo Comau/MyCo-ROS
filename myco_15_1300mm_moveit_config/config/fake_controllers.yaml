@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_myco_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - myco_joint1
+      - myco_joint2
+      - myco_joint3
+      - myco_joint4
+      - myco_joint5
+      - myco_joint6
+initial:  # Define initial robot poses.
+  - group: myco_arm
+    pose: home

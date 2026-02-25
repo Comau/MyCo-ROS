@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cjw/myco_ethercat/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/opt/openrobots/include/**",
+        "/home/cjw/catkin_ws/devel/include/**",
+        "/opt/openrobots/include/**",
+        "/home/cjw/catkin_ws/src/ar_track_alvar/ar_track_alvar/include/**",
+        "/home/cjw/catkin_ws/src/aruco_ros/aruco/include/**",
+        "/home/cjw/catkin_ws/src/aruco_ros/aruco_ros/include/**",
+        "/home/cjw/catkin_ws/src/darknet_ros/darknet_ros/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_ikfast_plugins/myco10_ikfast_plugin/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_ikfast_plugins/myco15_ikfast_plugin/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_ikfast_plugins/myco3_ikfast_plugin/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_ikfast_plugins/myco5_ikfast_plugin/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_ikfast_plugins/myco5_l_ikfast_plugin/myco5_l_ikfast_plugin/include/**",
+        "/home/cjw/catkin_ws/src/myco_robot/myco5_moveit_demo/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_basic_api/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_ethercat_driver/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_hardware_interface/include/**",
+        "/home/cjw/catkin_ws/src/myco_kdl/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_kinematic_solver/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_postrq_joint_trajectory_controller/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_posvel_joint_trajectory_controller/include/**",
+        "/home/cjw/myco_ethercat/src/CM_robot/myco_ros_control/include/**",
+        "/home/cjw/catkin_ws/src/myco_test/include/**",
+        "/home/cjw/catkin_ws/src/myco_vision/include/**",
+        "/home/cjw/catkin_ws/src/myco_voice/include/**",
+        "/home/cjw/catkin_ws/src/usb_cam/include/**",
+        "/home/cjw/catkin_ws/src/vision_visp/visp_bridge/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

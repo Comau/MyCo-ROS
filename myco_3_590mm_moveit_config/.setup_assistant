@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: myco_description
+    relative_path: urdf/MyCo-3-0.59.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/MyCo-3-0.59.srdf
+  CONFIG:
+    author_name: MyCo-ROS
+    author_email: andrea.perica@comau.com
+    generated_timestamp: 1765890858

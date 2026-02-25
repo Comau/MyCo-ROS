@@ -1,0 +1,11 @@
+<library path="lib/libmyco_posvel_joint_trajectory_controller">
+
+  <class name="myco_pos_vel_controllers/JointTrajectoryController"
+         type="myco_pos_vel_controllers::JointTrajectoryController"
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      joint trajectory controller with position velocity interface for myco.
+    </description>
+  </class>
+
+</library>

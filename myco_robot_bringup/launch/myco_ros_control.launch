@@ -1,0 +1,13 @@
+<launch>    
+ 
+  <node name="myco_ros_control" pkg="myco_ros_control" type="myco_hardware_interface" output="screen">
+    <rosparam file="$(find myco_robot_bringup)/config/myco_drivers.yaml" command="load"/>
+  </node>
+ 
+  <rosparam file="$(find myco_robot_bringup)/config/joint_state_controller.yaml" command="load"/>
+  <node name="myco_joint_controller_spawner" pkg="controller_manager" type="controller_manager" args="spawn joint_state_controller" respawn="false" output="screen"/>
+  
+  <rosparam file="$(find myco_robot_bringup)/config/myco_arm_control.yaml" command="load"/>
+  <node name="myco_arm_controller_spawner" pkg="controller_manager" type="controller_manager" args="load myco_arm_controller" respawn="false" output="screen"/>
+  
+</launch>
